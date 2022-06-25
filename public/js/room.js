@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io.connect("https://cnvideomeetapp.herokuapp.com/");
 const myvideo = document.querySelector("#vd1");
 const roomid = params.get("room");
 let username;
